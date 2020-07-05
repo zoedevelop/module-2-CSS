@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h2{
+    position: relative;
+   
+    margin: 45px 0 20px 0;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+.container > div {
+    width: 90%;
+    height: auto;
+    background-color: gray;
+    border: 2px solid black;
+    margin: 15px 0 ;
+    text-align: justify;
+}
+
+.container > div >h2{
+    /* display: inline-block; */
+    float: right;
+    margin: 0;
+    padding: 5px 25px;
+    border: 1px solid brown;
+}
+.container > div > p{
+    clear: both;
+    padding: 20px;
+}
+.pollo{
+    background: rgba(187, 38, 38, 0.842);
+}
+.carne{
+    color: white;
+    background-color: coral;
+}
+.pescado{
+    background-color: rgb(236, 160, 60);
+}
+
